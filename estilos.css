@@ -215,7 +215,8 @@ footer ul a img {
   .contenedor{
 
     grid-template: 
-    "header navbar" 90px
+    "header" 90px
+    "navbar" 30px
     "main"     auto
     "footer"   90px /
     100%
