@@ -531,10 +531,148 @@ footer ul a img {
   .contenedor{
     grid-template: 
     "header   navbar  navbar"  60px
-    "main   main    main"  auto
+    "main   main    main"  554px
     "footer   footer  footer"   40px /
      400px    auto  200px;
   }
+
+  .logo {
+    width: 38%;
+   margin: 3px;
+   float: right;
+}
+
+
+nav ul li a {
+    color: #E99598;
+    font-size: 1.7rem;
+    padding-right: 9rem;
+}
+
+.navbar a:hover {
+    color:#F5E1CE;
+}
+
+.navbar {
+    padding: 1.1rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-family: 'Martel', serif;
+    
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+.slider {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    /*height: 100px;*/
+    align-items: center;
+    
+}
+
+#contenedor2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /*position: sticky;
+  vertical-align: top;
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 50%;*/
+}
+
+#contenedor2 div {
+    /*margin-top: 2%;
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+            margin-top: 5%;
+    display: block;
+    flex-wrap: wrap;*/
+   text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+   
+}
+
+.charlottepng {
+  padding-left: 200px;
+}
+
+.png {
+  width: 55%;
+  height: auto;
+  text-align: center;
+  float: right;
+ 
+  margin-right: 11px;
+}
+
+.info {
+  flex-direction: column;
+  /*text-align: right;
+  float: right;
+  width: 50%;
+  clear: right;*/
+  margin-right: 300px;
+}
+
+h1 {
+  text-align: left;
+
+}
+
+.texto1{
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin-top: 8px;
+    /*display: inline-block;
+    width: 50%;*/
+   
+}
+
+
+.redes {
+  float: right;
+  margin-right: 70px;
+}
+
+footer {
+    display: block;
+    
+    align-items: center;
+    background-color: white; 
+    text-align: center;
+}
+
+footer div p {
+  float: left;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+footer ul a img {
+    max-width: 1.8rem;
+    width: 100%;
+    height: auto;
+    margin: 4px;
+}
+
+
+
 }
 
   @media (min-width: 1200px) {
