@@ -56,7 +56,7 @@ a {
 }
 
 .logo {
-    width: 38%;
+  width: 38%;
    margin: 3px;
    float: right;
 }
@@ -534,7 +534,7 @@ footer ul a img {
     "header   navbar  navbar"  60px
     "main   main    main"  auto
     "footer   footer  footer"   40px /
-     300px    auto  200px;
+     400px    auto  200px;
   }
 
 }
