@@ -58,9 +58,9 @@ a {
 }
 
 .logo {
-    width: 15%;
+    width: 38%;
    margin: 3px;
-   float: left;
+   float: right;
 }
 
 
@@ -302,8 +302,8 @@ nav ul li {
     width: 100%;
     /*height: 100px;*/
     align-items: center;
+    
 }
-
 
 #contenedor2 {
   justify-content: center;
@@ -341,7 +341,7 @@ nav ul li {
     text-align: center;
     float: left;
     margin-right: 0px;
-    margin-left: 11%;
+    margin-left: 94px;
     justify-content: center;
     vertical-align: middle;
     position: relative;
@@ -361,7 +361,7 @@ h1 {
     text-align: center;
     float: left;
     margin-left: 146px;
-    font-size: 32%;
+    font-size: 38px;
     position: absolute;
     margin-top: -32px;
 }
@@ -407,7 +407,7 @@ footer ul a img {
     margin: 4px;
 }
 
-
+}
 
 
 
@@ -419,7 +419,7 @@ footer ul a img {
     "header   navbar"   80px
     "main    main"     auto
     "footer   footer"   50px /
-     384px    384px;
+     50%    50%;
   }
   .logo {
     width: 58%;
@@ -579,5 +579,4 @@ footer ul a img {
       "footer   footer  footer  footer"   40px /
        200px    auto   auto   200px;
   }
-}
 }
