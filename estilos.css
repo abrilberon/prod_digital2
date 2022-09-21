@@ -550,11 +550,11 @@ footer div ul a img {
     "header   navbar  navbar"  60px
     "main   main    main"  auto
     "footer   footer  footer"   40px /
-     400px    auto  200px;
+     200px    auto  400px;
   }
 
   .logo {
-    width: 20%;
+    width: 38%;
     margin: 3px;
     float: right;
     margin-right: 20px;
