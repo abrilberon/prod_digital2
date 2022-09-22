@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
 
 *{
   box-sizing: border-box;
@@ -78,7 +78,9 @@ a {
 nav ul li a {
     color: #E99598;
     font-size: 1.7rem;
-    
+    font-family: 'Cormorant', serif;
+    font-weight: lighter;
+    align-items: center;
 }
 
 .navbar a:hover {
@@ -86,10 +88,10 @@ nav ul li a {
 }
 
 .navbar {
-    padding: 1.1rem;
+    padding: 0px;
     align-items: center;
     text-align: center;
-    font-family: 'Martel', serif;
+    
     
     display: grid;
 	  grid-template-columns: 50% 50%;
@@ -151,7 +153,7 @@ nav ul li {
 
 h2 {
   text-align: left;
-  font-family: 'Rochester', cursive;
+  font-family: 'Cormorant', serif;
   color: #E99598;
   font-size: 2em;
   font-weight: lighter;
@@ -189,7 +191,7 @@ footer {
   grid-area: firma;
   float: left;
   margin-left: 70px;
-  
+  font-family: 'Poppins', sans-serif;
 }
 
 p {
@@ -231,7 +233,7 @@ footer div ul a img {
     "header" 215px
     "navbar" 130px
     "main"  auto
-    "footer"  95px /
+    "footer"  120px /
     100%;
   }
  
@@ -269,11 +271,10 @@ footer div ul a img {
   
   .logo {
     width: 269px;
-    
     float: none;
     text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 33%;
+    margin-right: 33%;
   }
   
   
@@ -373,8 +374,8 @@ footer div ul a img {
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 35px;
     
   }
   
@@ -400,11 +401,13 @@ footer div ul a img {
     grid-area: firma;
     float: none;
     margin-left: 0px;
-    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    margin-top: 7px;
   }
   
   footer div ul a img {
-      max-width: 2.3rem;
+      max-width: 3rem;
       width: 100%;
       height: auto;
       margin: 4px;
@@ -560,7 +563,7 @@ footer div ul a img {
     grid-area: firma;
     float: left;
     margin-left: 70px;
-    
+    font-family: 'Poppins', sans-serif;
   }
   
   p {
