@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
 
 *{
   box-sizing: border-box;
@@ -147,9 +149,12 @@ nav ul li {
   margin-top: 3em;
 }
 
-h1 {
+h2 {
   text-align: left;
-
+  font-family: 'Rochester', cursive;
+  color: #E99598;
+  font-size: 2em;
+  font-weight: lighter;
 }
 
 .texto1{
@@ -355,9 +360,9 @@ footer div ul a img {
     margin-top: 1em;
   }
   
-  h1 {
+  h2 {
     text-align: center;
-  font-size: 38px;
+  font-size: 40px;
   }
   
   .texto1{
@@ -505,7 +510,7 @@ footer div ul a img {
   }
   
   .charlotte {
-    width: 70%;
+    width: 80%;
     height: auto;
     text-align: center;
     float: right;
@@ -522,7 +527,7 @@ footer div ul a img {
     margin-top: 1em;
   }
   
-  h1 {
+  .titulo {
     text-align: left;
   
   }
