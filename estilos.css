@@ -362,7 +362,7 @@ footer div ul a img {
   
   h2 {
     text-align: center;
-  font-size: 40px;
+    font-size: 60px;
   }
   
   .texto1{
@@ -402,10 +402,6 @@ footer div ul a img {
     margin-left: 0px;
     font-size: 22px;
   }
-  
-  /*p {
-    display: inline-block;
-  }*/
   
   footer div ul a img {
       max-width: 2.3rem;
