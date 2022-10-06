@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Consejos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body class="contenedor">
+    <header class="header">  
+
+        <div><img class="logo" src="imagenes/logo_glam.png" alt="logo"></div>
+    
+      </header> 
+    
+        <nav class="navbar"> 
+         <div>
+          <ul><li><a class= "productos" href="productos.html">Productos</a></li></ul>
+          </div>
+          
+          <div>
+            <ul> <li><a class= "consejos" href="consejos.html">Consejos</a></li></ul>
+          </div>
+        </nav> 
+<section class="main">
+    <form action="#" method="get">
+        <input type="text" placeholder="Nombre">
+        <input type="text" maxlength="4" placeholder="PIN">
+        <input type="number" placeholder="Número">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+
+        <label for="usuario">Usuario</label>
+        <input type="text" name="usuario">
+
+        <input type="text" name="readonly" value="Este valorno se puede modificar" disabled>
+        <input name="país" pattern="[A-Za-z]{3}" placeholder="Ingrese el código del país" >
+
+        <label for="favlanguage">Lenguaje favorito</label><br>
+        <input type=radio name="favlanguage">
+        <label for="html">HTML</label>
+        <input type="radio" name="favlanguage">
+        <label for="css">CSS</label>
+        <br>
+
+        <label for="fecha">Fecha de entrega</label>
+        <input type="date" name="fecha">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+ </section>
+    
+</body>
+</html>
