@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tiendas</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/lightbox.css" rel="stylesheet" />
+  <link href="css/lightbox.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+  <header class="header2">  
+
+    <div class="logo2"><a href="index.html"><img src="imagenes/logo_glam.png" alt="logo"></a></div>
+
+    <nav class="navbar2" id="navegador"> 
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      
+       <ul><li><a class= "productos" href="productos.html">Productos</a></li></ul>
+       
+       
+       
+         <ul> <li><a class= "consejos" href="tiendas.html">Tiendas</a></li></ul>
+       
+     </nav> 
+
+  </header> 
+    
+       
+  <section class="main3">
+
+    <div>
+      <img class="banner3" src="imagenes/banner3.jpg">
+    </div>
+
+    <div class="formulario">
+      <form action="#" method="get">
+        <label for="City">Ingrese el código postal o ciudad</label><br>
+        <input type="text" placeholder="Por favor ingrese el código postal o ciudad" name="City" autocomplete="off" required>
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+
+    <div class="maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1190501.9304924905!2d-58.98905456279016!3d-34.49456600222069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smac!5e0!3m2!1ses!2sar!4v1665151869185!5m2!1ses!2sar" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer class="footer">  
+        <div class="firma">
+          <p>Abril Berón</p>  
+        </div>
+          
+      <div class="redes">
+        <ul class="redes2">
+          <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="imagenes/twitter.png" alt="Twitter"></a>
+        </ul>
+      </div>
+    
+    </footer>
+  </section>
+    
+</body>
+<script type="text/javascript">
+  function myFunction(){
+      let x = document.getElementById("navegador");
+      if (x.className !== "navbar2 responsive") {
+          x.className = "navbar2 responsive";
+      } else {
+          x.className = "navbar2";
+      }
+  }
+</script>
+</html>
