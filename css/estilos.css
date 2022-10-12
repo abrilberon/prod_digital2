@@ -31,7 +31,7 @@ body{
   
   display: grid;
 	
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 280px auto;
     grid-template-areas: 
 
@@ -110,11 +110,11 @@ nav ul li {
 .png {
   
   grid-area: png;
- margin-left: auto;
+  margin-left: auto;
 }
 
 .png img {
-  width: 45%;
+  width: 100%;
  
 }
 
@@ -465,7 +465,8 @@ button:hover {
   
     grid-area: png;
     margin-left: auto;
-    width: 90%;
+    margin-right: auto;
+    width: 70%;
   }
   
   .png img {
@@ -626,7 +627,7 @@ button:hover {
     
       grid-template-columns: 40% 60%;
       grid-template-rows: 280px auto;
-      column-gap: 10px;
+      column-gap: 40px;
       grid-template-areas: 
   
       "slider slider"
@@ -694,12 +695,14 @@ button:hover {
   .png {
     
     grid-area: png;
-   
+   margin-left: auto;
+   width: 90%;
   }
   
   .png img {
     width: 100%;
     display: grid;
+    margin-left: auto;
   }
   
   .caja3 {
@@ -710,7 +713,7 @@ button:hover {
   }
   
   .info {
-    width: 87%;
+    width: 85%;
     margin-top: 0px;
   }
   
@@ -875,7 +878,7 @@ button:hover {
 }
 
 
-@media (min-width: 992px) and (max-width: 1999px) {
+@media (min-width: 992px) and (max-width: 1299px) {
 
   .contenedor{
     grid-template: 
@@ -885,25 +888,165 @@ button:hover {
      200px    auto  400px;
   }
 
-  /*.logo {
-    width: 38%;
-    margin: 3px;
-    float: right;
-    margin-right: 20px;
-  }*/
+  .main {
+    grid-area: main;
+    
+    display: grid;
+    
+      grid-template-columns: 40% 60%;
+      grid-template-rows: 280px auto;
+      column-gap: 50px;
+      grid-template-areas: 
+  
+      "slider slider"
+      "png caja3";
+  }
 
   .maquillaje {
     width: 1300px;
   }
 
-  .charlotte {
-    width: 45%;
-    height: auto;
-    text-align: center;
-    float: right;
-    margin-right: 2em;
+  .png {
+    
+    grid-area: png;
+   margin-left: auto;
+   width: 65%;
+  }
+  
+  .png img {
+    width: 100%;
+    display: grid;
+    margin-left: auto;
+  }
+  .info {
+    width: 70%;
+   margin-top: 4%;
   }
 }
 
+@media (min-width: 1300px) and (max-width: 1999px) {
+  .main {
+    grid-area: main;
+    
+    display: grid;
+    
+      grid-template-columns: 40% 60%;
+      grid-template-rows: 280px auto;
+      column-gap: 50px;
+      grid-template-areas: 
+  
+      "slider slider"
+      "png caja3";
+  }
 
-
+  
+  .footer{
+    grid-area: footer;
+    background-color: #EFCEC0;
+    
+    display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: 
+      "firma redes";
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  
+  nav ul li a {
+      color: #E99598;
+      font-size: 1.7rem;
+      font-family: 'Cormorant', serif;
+      font-weight: lighter;
+      align-items: center;
+  }
+  
+  .navbar2 a:hover {
+      color:#F5E1CE;
+  }
+  
+  .navbar {
+      padding: 0px;
+      align-items: center;
+      text-align: center;
+      
+      
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: 
+      "productos consejos";
+  }
+  
+  .productos {
+    grid-area: productos;
+  }
+  
+  .consejos {
+    grid-area: consejos;
+    margin-right: 100%;
+  }
+  
+  nav ul li {
+      display: contents;
+      text-align: center;
+  }
+  
+  .slider {
+      text-align: center;
+      justify-content: center;
+      
+      display: block;
+      width: 100%;
+      
+      align-items: center;
+      grid-area: slider;
+  }
+  
+  .maquillaje {
+    width: 1300px;
+  }
+  
+  .png {
+    
+    grid-area: png;
+   margin-left: auto;
+   width: 50%;
+  }
+  
+  .png img {
+    width: 100%;
+    display: grid;
+    margin-left: auto;
+  }
+  
+  .caja3 {
+    grid-area: caja3;
+    
+  }
+  
+  .info {
+    width: 50%;
+    margin-top: 1em;
+  }
+  
+  h2 {
+    text-align: left;
+    font-family: 'Cormorant', serif;
+    color: #E99598;
+    font-size: 2em;
+    font-weight: lighter;
+  }
+  
+  .texto1{
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 5px;
+     
+  }
+}
