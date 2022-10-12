@@ -147,32 +147,36 @@ h2 {
    
 }
 
+footer {
+  display: block;
+  align-items: center;
+}
+
 
 .redes {
   grid-area: redes;
+  margin-left: auto;
  
 }
 
 .redes2 {
-  float: right;
-  margin-right: 70px;
+  float: none;
+  margin-right: 2em;
 }
 
-footer {
-    display: block;
-    align-items: center;
-}
 
 .firma {
   grid-area: firma;
-  float: left;
-  margin-left: 70px;
+  margin-right: auto;
   font-family: 'Montserrat', sans-serif;
 }
 
-p {
+.nombre {
   display: inline-block;
+  margin-left: 2em;
 }
+
+
 
 footer div ul a img {
     max-width: 1.8rem;
@@ -397,17 +401,6 @@ button:hover {
     "consejos";
   }  
 
-  
-  .contenedor{
-
-    grid-template: 
-    "header" auto
-    "main"  auto
-    "footer"  120px /
-    100%;
-  }
- 
-
 
   .main {
     grid-area: main;
@@ -415,7 +408,8 @@ button:hover {
     display: grid;
     column-gap: 5px;
       grid-template-columns: 100%;
-      grid-template-rows: 280px auto;
+      grid-template-rows: 150px auto;
+      row-gap: 5px;
       grid-template-areas: 
   
       "slider"
@@ -458,7 +452,7 @@ button:hover {
   }
   
   .maquillaje {
-    width: 1341px;
+    width: 100%;
   }
 
   .png {
@@ -507,8 +501,8 @@ button:hover {
   
   
   .redes {
-    grid-area: redes;
-   
+   grid-area: redes;
+   margin: auto;
   }
   
   .redes2 {
@@ -516,20 +510,24 @@ button:hover {
     margin-right: 0px;
   }
   
-  footer {
-      display: block;
-      align-items: center;
-  }
-  
-  .firma {
+ 
+  .nombre {
     grid-area: firma;
-    float: none;
-    margin-left: 0px;
-    
+    margin: auto;
     font-size: 25px;
     margin-top: 7px;
   }
   
+  p {
+    margin-left: 0px;
+  }
+
+
+  footer {
+    display: block;
+    align-items: center;
+}
+
   footer div ul a img {
       max-width: 3rem;
       width: 100%;
@@ -626,7 +624,8 @@ button:hover {
     display: grid;
     
       grid-template-columns: 40% 60%;
-      grid-template-rows: 280px auto;
+      grid-template-rows: 200px auto;
+      row-gap: 10px;
       column-gap: 40px;
       grid-template-areas: 
   
@@ -689,7 +688,7 @@ button:hover {
   }
   
   .maquillaje {
-    width: 1300px;
+    width: 100%;
   }
   
   .png {
@@ -736,13 +735,15 @@ button:hover {
   
   .redes {
     grid-area: redes;
+    margin-left: auto;
    
   }
   
   .redes2 {
-    float: right;
-    margin-right: 70px;
+    float: none;
+    margin-right: 2em;
   }
+  
   
   footer {
       display: block;
@@ -753,13 +754,13 @@ button:hover {
   
   .firma {
     grid-area: firma;
-    float: left;
-    margin-left: 70px;
-    
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
   }
   
-  p {
+  .nombre {
     display: inline-block;
+    margin-left: 2em;
   }
   
   footer div ul a img {
@@ -894,7 +895,7 @@ button:hover {
     display: grid;
     
       grid-template-columns: 40% 60%;
-      grid-template-rows: 280px auto;
+      grid-template-rows: 250px auto;
       column-gap: 50px;
       grid-template-areas: 
   
@@ -903,7 +904,7 @@ button:hover {
   }
 
   .maquillaje {
-    width: 1300px;
+    width: 100%;
   }
 
   .png {
@@ -932,6 +933,7 @@ button:hover {
     
       grid-template-columns: 40% 60%;
       grid-template-rows: 280px auto;
+      row-gap: 20px;
       column-gap: 50px;
       grid-template-areas: 
   
@@ -1005,7 +1007,7 @@ button:hover {
   }
   
   .maquillaje {
-    width: 1300px;
+    width: 100%;
   }
   
   .png {
