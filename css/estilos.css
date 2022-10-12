@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
 
 
 *{
@@ -138,7 +139,8 @@ h2 {
 .texto1{
   color: black;
   font-size: 18px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   text-align: justify;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -165,7 +167,7 @@ footer {
   grid-area: firma;
   float: left;
   margin-left: 70px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -234,10 +236,11 @@ footer div ul a img {
 
 
 .formulario {
-  margin-top: 2%;
+  margin-top: 3%;
   text-align: center;
   justify-content: center;
   display: block;
+  margin-bottom: 2%;
 }
 
 input[type="text"] {
@@ -248,9 +251,9 @@ input[type="text"] {
 }
 
 label{
-  font-family: 'Cormorant', serif;
-  font-weight: lighter;
-  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
   
 }
 
@@ -258,7 +261,8 @@ button{
   width: 9%;
   height: 33px;
   font-size: 17px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  
   background-color: #EFCEC0;
   border-radius: 4px;
 }
@@ -305,7 +309,7 @@ button:hover {
 
 
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (max-width: 767px) {
     .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
         content: "\f0c9";
         color: #E99598;
@@ -489,7 +493,8 @@ button:hover {
   .texto1{
     color: black;
     font-size: 23px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     text-align: justify;
     width: 100%;
     padding-left: 50px;
@@ -519,8 +524,8 @@ button:hover {
     grid-area: firma;
     float: none;
     margin-left: 0px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 29px;
+    
+    font-size: 25px;
     margin-top: 7px;
   }
   
@@ -579,16 +584,16 @@ button:hover {
   }
   
   label{
-    font-family: 'Cormorant', serif;
-    font-weight: lighter;
-    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
   }
   
   button{
     width: 33%;
     height: 37px;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #EFCEC0;
     border-radius: 4px;
     text-align: center;
@@ -717,7 +722,8 @@ button:hover {
   .texto1{
     color: black;
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     text-align: justify;
     
     margin-top: 15px;
@@ -746,7 +752,7 @@ button:hover {
     grid-area: firma;
     float: left;
     margin-left: 70px;
-    font-family: 'Poppins', sans-serif;
+    
   }
   
   p {
@@ -816,31 +822,32 @@ button:hover {
 
 
   .formulario {
-    margin-top: 2%;
+    margin-top: 4%;
     text-align: center;
     justify-content: center;
     display: block;
+    margin-bottom: 6%;
   }
 
   input[type="text"] {
-    width: 37%;
+    width: 42%;
     height: 35px;
     border-radius: 4px;
     
   }
 
   label{
-    font-family: 'Cormorant', serif;
-    font-weight: lighter;
-    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
     
   }
 
   button{
     width: 11%;
-    height: 33px;
+    height: 35px;
     font-size: 17px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #EFCEC0;
     border-radius: 4px;
   }
