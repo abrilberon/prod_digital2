@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="css/lightbox.css" rel="stylesheet" />
   <link href="css/lightbox.min.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="css/estilos.css">
@@ -26,48 +29,188 @@
 
   </header> 
 
-  <section class="main">
-      
-           
+  <section>
+    
+          <div class="container">
 
-            <div class="slider">
-              <img class="maquillaje" src="imagenes/slider1-copia2.jpg">
-            </div>
-
-        
-              
-            <div class="png">
-              <div><img class="charlotte" src="imagenes/sobre.charlotte3.png"></div>
-              
-            </div>
-                
-
-            <div class="caja3">
-              <div class="info"> 
-                <h2>Sobre Charlotte</h2>
-                <p class="texto1">Para Charlotte La Bouff el amor es como el maquillaje, es muy importante escoger el indicado para que todo salga bien. Es así como refleja su pasión por la estética lanzando “Glamouff” (Glamour + La Bouff), la marca de maquillaje que irrumpió en la industria con una amplia variedad de productos que fusionan la experiencia de todos los días con un estilo glamoroso.</p>
-
+              <div class="elementoCarousel fade">
+                  <div class="numbertext">1 / 5</div>
+                  <video src="imagenes/production ID_4909999.mp4" autoplay muted loop ></video>
+                  <div class="text">RETRO MATTE LIPSTICK</div>
               </div>
-              
-            </div>
+
+              <div class="elementoCarousel fade">
+                  <div class="numbertext">2 / 5</div>
+                  <video src="imagenes/video.mp4" autoplay muted loop></video>
+                  <div class="text">RIMEL SKY HIGH</div>
+              </div>
+
+              <div class="elementoCarousel fade">
+                  <div class="numbertext">3 / 5</div>
+                  <video src="imagenes/productos.mp4" autoplay muted loop></video>
+                  <div class="text">SET SKIN CARE</div>
+              </div>
+
+              <div class="elementoCarousel fade">
+                  <div class="numbertext">4 / 5</div>
+                  <video src="imagenes/pexels-pnw-production-9218218.mp4" autoplay muted loop></video>
+                  <div class="text">SUPERSTAY LIPSTICK</div>
+              </div>
+
+              <div class="elementoCarousel fade">
+                <div class="numbertext">5 / 5</div>
+                <video src="imagenes/pexels-anthony-shkraba-7987792.mp4" autoplay muted loop></video>
+                <div class="text">GOLD EYESHADOW PALETTE</div>
+              </div>
+
+                      <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="slideActual(1)"></span>
+          <span class="dot" onclick="slideActual(2)"></span>
+          <span class="dot" onclick="slideActual(3)"></span>
+          <span class="dot" onclick="slideActual(4)"></span>
+          <span class="dot" onclick="slideActual(5)"></span>
+        </div>
+
+        <br>
+
+        <div class="container">
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+        </div>
+
+      
+
+
+
+      <div class="main">
+        <div class="title">
+          <p class="title2">Productos destacados</p>
+          <a href="productos.html"><P class="ver">Ver más<span class="material-symbols-outlined">chevron_right</span></P></a>
+        </div>
+
+        <div class="destacados">
+
+          <figure>
+            <a href=productos.html><img src="imagenes/top-view-powders-arrangement.jpg"></a>
+            <figcaption>Eyeshadow Palette Soft</figcaption>
+          </figure>
+
+          <figure>
+            <a href=productos.html><img href=productos.html src="imagenes/young-female-model-portrait.jpg"></a>
+            <figcaption>Gloss Tenderness</figcaption>
+          </figure>
+
+          <figure>
+            <a href=productos.html><img href=productos.html src="imagenes/foundation-dripping-on-bottle-still-life.jpg"></a>
+            <figcaption>Base Glamouff</figcaption>
+          </figure>
+          
+        </div>
+          
+        <div class="png">
+          <div><img class="charlotte" src="imagenes/sobre.charlotte3.png"></div>
+          
+        </div>
+            
+
+        <div class="caja3">
+          <div class="info"> 
+            <h2>Sobre Charlotte</h2>
+            <p class="texto1">Para Charlotte La Bouff el amor es como el maquillaje, es muy importante escoger el indicado para que todo salga bien. Es así como refleja su pasión por la estética lanzando “Glamouff” (Glamour + La Bouff), la marca de maquillaje que irrumpió en la industria con una amplia variedad de productos que fusionan la experiencia de todos los días con un estilo glamoroso.</p>
+
+          </div>
+          
+        </div>
+      </div>
+            
           
   </section>
   
 
   <footer class="footer">  
           <div class="firma">
-            <p class="nombre">Abril Berón</p>  
+            <p class="nombre">Glamouffarg@gmail.com</p>  
           </div>
             
         <div class="redes">
           <ul class="redes2">
-            <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="imagenes/twitter.png" alt="Twitter"></a>
+            
+            <a href="#" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="twitter" ><i class="fab fa-twitter"></i></a>
+                      
           </ul>
         </div>
        
  </footer>
 
+
+ <script>
+  // Definir un índice y llamar a la función que muestra un slide
+  let indiceSlide = 1;
+  mostrarSlides(indiceSlide);
+
+  // Mover el slide a través de los controles previo y próximo (1, -1)
+  function plusSlides(numero) {
+      mostrarSlides(indiceSlide += numero);
+  }
+
+  // Mover el slide a través de los indicadores
+  function slideActual(numero) {
+      mostrarSlides(indiceSlide = numero);
+  }
+
+  function mostrarSlides(numero) {
+      // Obtener los elementos para operar con ellos
+      let slides = document.getElementsByClassName("elementoCarousel");
+      let indicadores = document.getElementsByClassName("dot");
+
+      // Validar "numero"
+      if (numero > slides.length) { indiceSlide = 1 }
+      if (numero < 1) { indiceSlide = slides.length }
+
+      // Iterar y ocultar los slides y el estilo de los indicadores
+      for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < indicadores.length; i++) {
+          indicadores[i].className = indicadores[i].className.replace(" active", "");
+      }
+
+      // Mostrar el slide indicado con display block y agregarle el estilo al punto indicado
+      slides[indiceSlide - 1].style.display = "block";
+      indicadores[indiceSlide - 1].className += " active";
+  } 
+
+        // SCROLL TO TOP:
+
+        let buttonTop = document.getElementById("myBtn");
+
+      // Al hacer scroll down 20px del top del documento, mostrar el boton
+      window.onscroll = function() { 
+          scrollFunction()
+      };
+
+      function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          buttonTop.style.display = "block";
+      } else {
+          buttonTop.style.display = "none";
+      }
+      }
+
+      // Al hacer click, hacer scroll al top del documento
+      function topFunction() {
+          document.body.scrollTop = 0; // Safari
+          document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
+      } 
+</script>
  
 </body>
 <script type="text/javascript">
