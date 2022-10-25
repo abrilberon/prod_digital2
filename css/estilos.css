@@ -116,16 +116,20 @@ video {
   z-index: 99; /* Que nada se superponga */
   border: none; 
   outline: none; 
-  background-color: rgb(208, 2, 2);
-  color: #f2f2f2; 
+  text-transform: uppercase;
+  background-color: white;
+  color: black; 
   cursor: pointer; 
   padding: 1rem;
-  border-radius: 10px;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   font-size: 1.1rem;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: black; /* Add a dark-grey background on hover */
+  color: white;
 }
 
 
