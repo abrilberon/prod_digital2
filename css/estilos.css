@@ -702,6 +702,11 @@ figure:hover > figcaption {
     "consejos";
   }  
 
+  
+  nav ul li {
+    display: contents;
+    text-align: center;
+}
 
   .main {
     grid-area: main;
@@ -738,11 +743,7 @@ figure:hover > figcaption {
   }
   
  
-  
-  nav ul li {
-      display: contents;
-      text-align: center;
-  }
+
   
   .slider {
       text-align: center;
