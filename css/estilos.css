@@ -111,13 +111,13 @@ video {
 #myBtn {
   display: none; /* Esconder por default */
   position: fixed; /* Position */
-  bottom: 3%;
+  bottom: 8%;
   right: 4%; 
   z-index: 99; /* Que nada se superponga */
   border: none; 
   outline: none; 
   text-transform: uppercase;
-  background-color: white;
+  background-color: #EFCEC0;
   color: black; 
   cursor: pointer; 
   padding: 1rem;
@@ -128,8 +128,9 @@ video {
 }
 
 #myBtn:hover {
-  background-color: black; /* Add a dark-grey background on hover */
-  color: white;
+  background-color: #E99598; /* Add a dark-grey background on hover */
+   
+  color: black;
 }
 
 
@@ -1038,10 +1039,13 @@ figure:hover > figcaption {
     margin-top: 3%;
     margin-bottom: 2%;
   }
-
+  iframe.snapwidget-widget {
+    width: 100%;
+  }
   .instagram {
     text-align: center;
-   margin-bottom: 2%;
+   margin-bottom: 4%;
+   margin-top: 6%;
   }
   
   .caption {
@@ -1070,8 +1074,68 @@ figure:hover > figcaption {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   }
+  .redes2>a {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    padding: 0 10px;
+    background-color: #E99598;
+    color: white;
+    line-height: 35px;
+    font-size: 28px;
+    box-shadow: 0 3px 5px 0px gainsboro;
+    transition: .2s;
+    border-radius: 50%;
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  }
+ a.instagram {
+  margin-right: 30px;
+ 
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ a.twitter {
+  margin-right: 30px;
+ 
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ a.facebook {
+  margin-right: 30px;
+ 
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+
+ #myBtn {
+  display: none; /* Esconder por default */
+  position: fixed; /* Position */
+  bottom: 28%;
+  right: 4%; 
+  z-index: 99; /* Que nada se superponga */
+  border: none; 
+  outline: none; 
+  text-transform: uppercase;
+  background-color: #EFCEC0;
+  color: black; 
+  cursor: pointer; 
+  padding: 1rem;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 
 }
+  
+
 
 
 
@@ -1508,6 +1572,27 @@ figure:hover > figcaption {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
   }
+
+  #myBtn {
+    display: none; /* Esconder por default */
+    position: fixed; /* Position */
+    bottom: 10%;
+    right: 4%; 
+    z-index: 99; /* Que nada se superponga */
+    border: none; 
+    outline: none; 
+    text-transform: uppercase;
+    background-color: #EFCEC0;
+    color: black; 
+    cursor: pointer; 
+    padding: 1rem;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+
 }
 
 
@@ -1527,7 +1612,7 @@ figure:hover > figcaption {
     display: grid;
     
       grid-template-columns: 40% 60%;
-      grid-template-rows: 250px auto;
+      grid-template-rows: auto;
       column-gap: 50px;
       grid-template-areas: 
   
@@ -1722,7 +1807,24 @@ figure:hover > figcaption {
     margin-bottom: 2%;
   }
   
- 
+  #myBtn {
+    display: none; /* Esconder por default */
+    position: fixed; /* Position */
+    bottom: 10%;
+    right: 4%; 
+    z-index: 99; /* Que nada se superponga */
+    border: none; 
+    outline: none; 
+    text-transform: uppercase;
+    background-color: #EFCEC0;
+    color: black; 
+    cursor: pointer; 
+    padding: 1rem;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
 
 }
 
@@ -1998,4 +2100,34 @@ figure:hover > figcaption {
     color: black;
     margin-bottom: 2%;
   }
+}
+
+
+.line-1{
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  font-family: 'Montserrat', sans-serif;
+  color: #E99598;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
 }
