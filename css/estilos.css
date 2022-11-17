@@ -101,6 +101,7 @@ video {
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+  
 }
 
 @keyframes fade {
@@ -416,6 +417,13 @@ footer div ul a img {
 .logo2 a img{
   width: 100%;
 }
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.3); 
+}
 
 .navbar2{
   grid-area: navbar;
@@ -514,14 +522,12 @@ figcaption {
   transition: all .5s;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color:  white;
- 
- box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+
 }
 
 figure:hover > figcaption {
   display: block;
-  transition: all .5s;
+  transition-duration: 20s;
  
 }
 
@@ -619,7 +625,19 @@ figure:hover > figcaption {
     .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
         content: "\f0c9";
         color: #E99598;
-        font-size: 27px;
+        font-size: 40px;
+    }
+
+    figure {
+      display: block;
+      margin: 20px;
+  }
+
+      figcaption {
+        display: block;
+        transition: all .5s;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
     }
 
     header {
@@ -664,9 +682,32 @@ figure:hover > figcaption {
 
     .consejos {
       margin-right: 0%;
-    }
+      position: absolute;
+      margin-top: 11%;
+      background-color: #FFFCF6;
+      width: 50%;
+      font-size: 35px;
+      height: 7%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+  }
+    
 
-   
+    .productos {
+      grid-area: productos;
+      position: absolute;
+      margin-top: 3%;
+      
+      background-color: #FFFCF6;
+      width: 50%;
+      font-size: 35px;
+      height: 7%;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+  }
   
   .logo2 {
     grid-area: logo;
@@ -681,7 +722,7 @@ figure:hover > figcaption {
     padding: 0px;
     align-items: center;
     text-align: center;
-    height: fit-content;
+    height: 110px;
     
     display: grid;
     grid-template-columns: 300px auto;
@@ -930,7 +971,7 @@ figure:hover > figcaption {
     overflow:hidden;
   }
 
-  .destacados img:hover {filter: opacity(.5);}
+  
 
   .title {
     grid-area: title;
@@ -951,22 +992,8 @@ figure:hover > figcaption {
   .galeria2 img:hover {filter: opacity(.5);}
 
 
-  figcaption {
-    display:none; 
-    transition: all .5s;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    background-color:  white;
-   
-   box-shadow: 0 0 10px rgb(0 0 0 / 35%);
-   
-  }
   
-  figure:hover > figcaption {
-    display: block;
-    transition: all .5s;
-   
-  }
+
  
   .material-symbols-outlined {
     font-variation-settings:
@@ -1327,7 +1354,7 @@ figure:hover > figcaption {
     padding: 0px;
     align-items: center;
     text-align: center;
-    height: fit-content;
+    height: 77px;
     
     display: grid;
     grid-template-columns: 25% 75%;
@@ -1422,9 +1449,9 @@ figure:hover > figcaption {
 
   .destacados img {
     display: block;
-    margin: 10px;
-    overflow:hidden;
-  }
+    margin: 34px;
+    overflow: hidden;
+}
 
   .destacados img:hover {filter: opacity(.5);}
 
@@ -1444,21 +1471,15 @@ figure:hover > figcaption {
 
 
   figcaption {
-    display:none; 
+    display:block; 
     transition: all .5s;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background-color:  white;
    
-   box-shadow: 0 0 10px rgb(0 0 0 / 35%);
    
   }
   
-  figure:hover > figcaption {
-    display: block;
-    transition: all .5s;
-   
-  }
+ 
  
   .material-symbols-outlined {
     font-variation-settings:
@@ -1694,9 +1715,9 @@ figure:hover > figcaption {
     transition: all .5s;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background-color:  white;
+    
    
-   box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+   
    
   }
   
@@ -1824,6 +1845,9 @@ figure:hover > figcaption {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.1rem;
+  }
+  .header2 {
+    height: 80px;
   }
 
 }
@@ -1970,7 +1994,8 @@ figure:hover > figcaption {
     overflow:hidden;
   }
 
-  .destacados img:hover {filter: opacity(.5);}
+  .destacados img:hover {filter: opacity(.5);
+  transition-duration: 1.5s;}
 
   .title {
     grid-area: title;
@@ -1996,9 +2021,7 @@ figure:hover > figcaption {
     transition: all .5s;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    background-color:  white;
-   
-   box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+    
    
   }
   
@@ -2100,34 +2123,9 @@ figure:hover > figcaption {
     color: black;
     margin-bottom: 2%;
   }
+
+  .header2 {
+    height: 80px;
+  }
 }
 
-
-.line-1{
-  position: relative;
-  top: 50%;  
-  width: 24em;
-  font-family: 'Montserrat', sans-serif;
-  color: #E99598;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,.75);
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);    
-}
-
-/* Animation */
-.anim-typewriter{
-animation: typewriter 4s steps(44) 1s 1 normal both,
-           blinkTextCursor 500ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-from{width: 0;}
-to{width: 24em;}
-}
-@keyframes blinkTextCursor{
-from{border-right-color: rgba(255,255,255,.75);}
-to{border-right-color: transparent;}
-}
