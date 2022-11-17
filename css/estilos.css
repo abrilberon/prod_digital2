@@ -548,6 +548,25 @@ figure:hover > figcaption {
   border-radius: 4px;
 }
 
+.destacados3 {
+  margin-top: 3%;
+  
+  padding: 0;
+  
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.destacados3 img {
+  display: block;
+  margin: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 35%);
+}
+
+
 /*botones animados de redes sociales*/
 
 :root {
