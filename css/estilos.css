@@ -1045,7 +1045,7 @@ color: white;
     font-size: 0.7em;
   }
 
-  .galeria2 img:hover {filter: opacity(.5);}
+  
 
 
   
@@ -1086,9 +1086,23 @@ color: white;
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 4%;
-
+    margin: auto;
+    padding-top: 2%;
+    width: 100%;
   }
 
+  .cajabtext{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 4%;
+    margin: auto;
+    margin-bottom: 2%;
+
+  }
   .cajab {
     grid-area: cajab;
     font-family: 'Montserrat', sans-serif;
@@ -1097,7 +1111,7 @@ color: white;
     
     flex-direction: column;
     
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 2%;
   }
 
@@ -1560,20 +1574,33 @@ color: white;
       
       grid-template-areas: 
       "cajaa cajab";
+      column-gap: 28px;
   }
 
+  
+
+  
   .cajaa {
     grid-area: cajaa;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-align: center;
-    padding-left: 6%;
-    padding-right: 6%;
+    width: 100%;
+    padding: 0;
+    margin: auto;
   }
 
+  .cajabtext{
+    font-family: 'Montserrat', sans-serif;
+      display: flex;
+    
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+  }
   .cajab {
     grid-area: cajab;
     font-family: 'Montserrat', sans-serif;
@@ -1584,6 +1611,7 @@ color: white;
     
     margin-top: 2%;
     margin-bottom: 2%;
+    margin-right: 7%;
   }
 
   .ver2 {
@@ -1836,21 +1864,31 @@ color: white;
       grid-template-rows: 100%;
       grid-template-areas: 
       "cajaa cajab";
+      column-gap: 20px;
   }
 
+  
   .cajaa {
     grid-area: cajaa;
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    
     align-items: center;
-    font-weight: bold;
-    font-size: 1.2em;
-    text-align: center;
-    padding-left: 17%;
-    padding-right: 17%;
+    width: 100%;
+    padding: 0;
+    margin: auto;
   }
 
+  .cajabtext{
+    font-family: 'Montserrat', sans-serif;
+      display: flex;
+    
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+  }
   .cajab {
     grid-area: cajab;
     font-family: 'Montserrat', sans-serif;
@@ -1861,7 +1899,9 @@ color: white;
     
     margin-top: 2%;
     margin-bottom: 2%;
+    
   }
+  
 
   .ver2 {
     font-family: 'Montserrat', sans-serif;
@@ -2172,6 +2212,7 @@ color: white;
       grid-template-rows: 100%;
       grid-template-areas: 
       "cajaa cajab";
+      column-gap: 30px;
   }
 
   .cajaa {
@@ -2182,8 +2223,19 @@ color: white;
     align-items: center;
     font-weight: bold;
     font-size: 1.2em;
+    margin: auto;
+    width: 100%;
+    
   }
 
+  .cajabtext {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
   .cajab {
     grid-area: cajab;
     font-family: 'Montserrat', sans-serif;
