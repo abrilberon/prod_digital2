@@ -401,7 +401,10 @@ footer div ul a img {
   align-items: center;
   text-align: center;
   height: fit-content;
-  
+  background-color: #FFFCF6;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: grid;
   grid-template-columns: 200px auto;
   grid-template-areas: 
@@ -453,6 +456,7 @@ footer div ul a img {
   border-radius: 4px;
   
 }
+
 
 .label1{
   font-family: 'Montserrat', sans-serif;
@@ -738,11 +742,11 @@ color: white;
       .consejos {
         margin-right: 0%;
         position: absolute;
-        margin-top: 108px;
+        margin-top: 101px;
         background-color: #FFFCF6;
         width: 50%;
         font-size: 35px;
-        height: 16%;
+        height: 65%;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -758,7 +762,7 @@ color: white;
       background-color: #FFFCF6;
       width: 50%;
       font-size: 35px;
-      height: 16%;
+      height: 65%;
       text-align: center;
       justify-content: center;
       display: flex;
@@ -779,7 +783,10 @@ color: white;
     align-items: center;
     text-align: center;
     height: 110px;
-    
+    background-color: #FFFCF6;
+  position: sticky;
+  top: 0;
+  z-index: 100;
     display: grid;
     grid-template-columns: 300px auto;
     grid-template-areas: 
@@ -1227,6 +1234,8 @@ color: white;
   margin-bottom: 2px;
 }
 
+
+       
 }
   
 
@@ -1424,7 +1433,10 @@ color: white;
     align-items: center;
     text-align: center;
     height: 77px;
-    
+    background-color: #FFFCF6;
+  position: sticky;
+  top: 0;
+  z-index: 100;
     display: grid;
     grid-template-columns: 25% 75%;
     grid-template-areas: 
