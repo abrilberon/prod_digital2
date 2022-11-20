@@ -472,7 +472,7 @@ footer div ul a img {
 }
 
 .button1:hover {
-  color:#F5E1CE;
+  color: white;
 }
 
 
@@ -578,6 +578,10 @@ figure:hover > figcaption {
   margin-bottom: 2px;
 }
 
+.ver2:hover {
+color: white;
+}
+
 
 /*botones animados de redes sociales*/
 
@@ -659,6 +663,26 @@ figure:hover > figcaption {
         font-size: 40px;
     }
 
+    .text {
+      color: white;
+      font-size: 35px;
+      position: absolute;
+      top: 50%;
+      bottom: 50%;
+      width: 100%;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+  }
+  
+    .fab {
+      font-family: "Font Awesome 5 Brands";
+      
+      font-size: 45px;
+      margin-top: 7px;
+      
+  }
+
     figure {
       display: block;
       margin: 20px;
@@ -711,33 +735,34 @@ figure:hover > figcaption {
       }
 
 
-    .consejos {
-      margin-right: 0%;
-      position: absolute;
-      margin-top: 11%;
-      background-color: #FFFCF6;
-      width: 50%;
-      font-size: 35px;
-      height: 7%;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-  }
+      .consejos {
+        margin-right: 0%;
+        position: absolute;
+        margin-top: 108px;
+        background-color: #FFFCF6;
+        width: 50%;
+        font-size: 35px;
+        height: 16%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        z-index: 100;
+    }
     
-
+   
     .productos {
       grid-area: productos;
       position: absolute;
-      margin-top: 3%;
-      
+      margin-top: 30px;
       background-color: #FFFCF6;
       width: 50%;
       font-size: 35px;
-      height: 7%;
+      height: 16%;
       text-align: center;
       justify-content: center;
       display: flex;
+      z-index: 100;
   }
   
   .logo2 {
@@ -1121,17 +1146,7 @@ figure:hover > figcaption {
     margin-bottom: 2%;
   }
 
-  .text {
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    width: 100%;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-  }
+  
   .redes2>a {
     display: inline-block;
     width: 65px;
@@ -1234,6 +1249,8 @@ figure:hover > figcaption {
       "destacados destacados"
       "png caja3";
   }
+
+
 
   .logo {
     width: 100px;
@@ -1938,7 +1955,7 @@ figure:hover > figcaption {
       "png caja3";
   }
 
-  
+
   .footer{
     grid-area: footer;
     background-color: #EFCEC0;
@@ -2108,7 +2125,7 @@ figure:hover > figcaption {
     
    
   }
-  
+
   .destacados3 img:hover {filter: opacity(.5);
     transition-duration: 1.5s;}
 
