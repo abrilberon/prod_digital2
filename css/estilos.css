@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+ 
 }
 
 
@@ -217,6 +218,7 @@ body{
   font-size: 1.2rem;
   min-height: 100%; 
   background-color: #FFFCF6;
+  overflow-x: hidden;
 }
 
 
